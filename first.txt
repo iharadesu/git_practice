@@ -10,7 +10,7 @@ gitの練習をしております。
 ・git log --oneline
 ・git rm　：ファイルごとgitの管理から消去
 ・git rm --cached : ファイルは残し、リポジトリからのみ消去する
-・git remote add origin リポジトリーのurl
+・git remote add origin(リポジトリーに名前をつけている) リポジトリーのurl
 ・git push origin master
 ・git diff ファイル名 : 変更差分を確認する
 ・git mv<旧ファイル><新ファイル> : ファイル名の変更
@@ -18,3 +18,10 @@ gitの練習をしております。
 ・git reset HEAD　--<ファイル名>or<ディレクトリ名>：ステージした変更を取り消す
 
 ・git config --global alias.<短縮したコマンド> <元のコマンド> : エイリアスの設定
+・git remote -v : リモートの情報の確認
+
+・git fetch <リモート名> : リモートから情報を取得する
+・git branch -a : 
+・git checkout remotes/origin/master : ワークツリーの内容の切替
+・git marge : リモートの情報をマージする
+・git pull <リモート名><ブランチ名>: リモートから情報を取得し、マージする
