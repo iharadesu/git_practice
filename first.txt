@@ -4,6 +4,7 @@ gitの練習をしております。
 ・git add ：指定したファイルをインデックスに登録し、コミット対象にする
 ・git add .:カレントディレクトリ以下の変更されたファイル、消去されたファイル、新しく作られたファイル全てをadd
 ・git commit -v ：ファイルの変更や追加などを保存する
+・git commit --amend : 直前のコミットをやり直す
 ・git status
 ・git log
 ・git log --oneline
@@ -12,5 +13,8 @@ gitの練習をしております。
 ・git remote add origin リポジトリーのurl
 ・git push origin master
 ・git diff ファイル名 : 変更差分を確認する
-・git reset HEAD
 ・git mv<旧ファイル><新ファイル> : ファイル名の変更
+・git checkout --<ファイル名>or<ディレクトリ名> : 変更の取り消し
+・git reset HEAD　--<ファイル名>or<ディレクトリ名>：ステージした変更を取り消す
+
+・git config --global alias.<短縮したコマンド> <元のコマンド> : エイリアスの設定
