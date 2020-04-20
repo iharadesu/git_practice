@@ -10,4 +10,4 @@ gitの練習をしております。
 ・git rm　：ファイルごとgitの管理から消去
 ・git remote add origin リポジトリーのurl
 ・git push origin master
-・git diff ファイル名
+・git diff ファイル名 : 変更差分を確認する
