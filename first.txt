@@ -25,3 +25,6 @@ gitの練習をしております。
 ・git checkout remotes/origin/master : ワークツリーの内容の切替
 ・git marge : リモートの情報をマージする
 ・git pull <リモート名><ブランチ名>: リモートから情報を取得し、マージする
+・git remote show <リモート名>
+・git remote <旧リモート名> <新リモート名>
+・git remote rm <リモート名>
