@@ -8,6 +8,9 @@ gitの練習をしております。
 ・git log
 ・git log --oneline
 ・git rm　：ファイルごとgitの管理から消去
+・git rm --cached : ファイルは残し、リポジトリからのみ消去する
 ・git remote add origin リポジトリーのurl
 ・git push origin master
 ・git diff ファイル名 : 変更差分を確認する
+・git reset HEAD
+・git mv<旧ファイル><新ファイル> : ファイル名の変更
